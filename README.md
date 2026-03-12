@@ -60,21 +60,18 @@ O MVP contempla:
 #### 📃 Backlog do Produto
 | Rank | Prioridade | User Story | Estimativa | Sprint | Status |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| 1 | Alta | **[Front-end]** Como Administrador de Regras, quero uma interface web SPA em Vue.js, para cadastrar e listar normativas da empresa de forma centralizada e sem planilhas soltas. | 8 | 1 | ⏳ |
-| 2 | Alta | **[Front-end]** Como Analista de Operações, quero uma interface de Chat interativa, para agilizar a obtenção de respostas dinâmicas sobre regras de comissionamento vigentes. | 8 | 1 | ⏳ |
-| 3 | Alta | **[Back-end]** Como Administrador de Regras, quero que os dados base do negócio (vendas, funcionários e comissionamento) sejam estruturados via SpringBoot, para permitir a integração e execução segura das regras cadastradas. | 13 | 1 | ⏳ |
-| 4 | Alta | **[Machine Learning]** Como Administrador de Regras, quero que os documentos físicos e PDFs da empresa sejam fatiados e convertidos em formato vetorial, para que a Inteligência Artificial consiga ler o conhecimento tácito da Dom Rock. | 13 | 1 | ⏳ |
-| 5 | Alta | **[Machine Learning]** Como Administrador de Regras, quero que as informações vetorizadas sejam indexadas em um banco de dados inteligente, para garantir que as buscas de contexto do sistema sejam ágeis e precisas. | 8 | 1 | ⏳ |
-| 6 | Alta | **[Machine Learning]** Como Analista de Operações, quero que o contexto exato da minha pergunta seja recuperado no banco de dados vetorial, para que a resposta da IA seja baseada apenas na nossa realidade e não contenha alucinações. | 13 | 2 | ⏳ |
-| 7 | Alta | **[Machine Learning]** Como Analista de Operações, quero enviar simulações para um motor de Inteligência Artificial (LLM), para reduzir drasticamente meu tempo gasto decifrando regras complexas de descontos e campanhas. | 13 | 2 | ⏳ |
-| 8 | Alta | **[Back-end]** Como Auditor Interno, quero que a aplicação registre logs estruturados e versionamento automático, para manter o histórico inalterável de todas as chamadas feitas à IA e garantir conformidade. | 8 | 2 | ⏳ |
-| 9 | Média | **[Front-end]** Como Gestor Comercial, quero um painel visual para simular cenários operacionais, para avaliar preventivamente o impacto financeiro de uma nova comissão antes de publicá-la. | 8 | 2 | ⏳ |
-| 10 | Média | **[Back-end]** Como Analista de Operações, quero que as rotas da aplicação se comuniquem perfeitamente com os scripts em Python, para garantir fluidez e evitar travamentos durante o expediente. | 8 | 2 | ⏳ |
-| 11 | Alta | **[Machine Learning]** Como Analista de Operações, quero que a IA justifique detalhadamente como calculou a comissão (Explicabilidade/XAI), para garantir a transparência da decisão e evitar discussões com a equipe de vendas. | 13 | 3 | ⏳ |
-| 12 | Média | **[Back-end]** Como Administrador de Regras, quero que o sistema me alerte sobre conflitos entre regras recém-cadastradas e antigas, para evitar pagamentos indevidos e inconsistências operacionais. | 8 | 3 | ⏳ |
-| 13 | Alta | **[Todas as Áreas]** Como Analista de Operações, quero consultar um Manual do Usuário detalhado, para reduzir minha curva de aprendizado ao começar a utilizar o assistente de IA da Dom Rock. | 5 | 3 | ⏳ |
-| 14 | Alta | **[Todas as Áreas]** Como CTO da Dom Rock, quero acessar um Manual de Instalação completo no repositório, para garantir que minha equipe interna consiga implantar o projeto no servidor sem depender dos alunos. | 5 | 3 | ⏳ |
-| 15 | Alta | **[Front-end / Apoio]** Como Gestor Comercial, quero assistir a um Vídeo Tutorial demonstrativo da ferramenta, para repassar aos diretores e funcionários que não possuem conhecimento técnico aprofundado. | 5 | 3 | ⏳ |
+| 1 | Alta | Como Administrador de Regras, quero utilizar linguagem natural para criar novas diretrizes, para tornar a atualização de comissões mais rápida e intuitiva. | 13 | 1 | ⏳ |
+| 2 | Alta | Como Administrador de Regras, quero enviar arquivos de regulamentos antigos para o sistema, para que a ferramenta aprenda as normas automaticamente sem eu precisar digitar tudo do zero. | 8 | 1 | ⏳ |
+| 3 | Alta | Como Administrador de Regras, quero visualizar um painel com todas as diretrizes ativas no momento, para ter um panorama claro das comissões que estão valendo. | 8 | 1 | ⏳ |
+| 4 | Alta | Como Analista de Operações, quero simular o cálculo de uma venda específica no sistema, para confirmar se os descontos estão corretos antes de aprovar os pagamentos. | 13 | 1 | ⏳ |
+| 5 | Alta | Como Analista de Operações, quero visualizar o desfecho das regras de maneira clara, para ter certeza de que a ferramenta interpretou a campanha corretamente. | 8 | 2 | ⏳ |
+| 6 | Alta | Como Analista de Operações, quero que o assistente explique em texto o motivo do resultado gerado, para conseguir justificar os valores para os vendedores que tiverem dúvidas. | 8 | 2 | ⏳ |
+| 7 | Média | Como Administrador de Regras, quero poder reativar e alternar para diretrizes antigas, para agilizar o trabalho durante períodos de mudanças de vendas. | 8 | 2 | ⏳ |
+| 8 | Média | Como Auditor Interno, quero inspecionar a linha do tempo de mudanças feitas nas normas, para compreender e rastrear todo o fluxo de alterações realizadas. | 5 | 2 | ⏳ |
+| 9 | Média | Como Administrador de Regras, quero receber um alerta caso eu crie uma diretriz que seja contraditória com outra, para evitar pagamentos duplicados ou prejuízos. | 8 | 3 | ⏳ |
+| 10 | Baixa | Como Gestor Comercial, quero ter acesso a representações visuais referentes aos resultados gerados, para tornar a explicação da ferramenta mais clara para a diretoria. | 13 | 3 | ⏳ |
+| 11 | Baixa | Como CTO da Dom Rock, quero monitorar indicadores e métricas de uso da plataforma (observabilidade), para atestar o desempenho e a estabilidade do sistema ao longo do tempo. | 8 | 3 | ⏳ |
+| 12 | Alta | Como Analista de Operações, quero acessar um guia prático de uso no portal, para aprender a manusear as funcionalidades sem depender do time de suporte. | 3 | 3 | ⏳ |
 
 ---
 
