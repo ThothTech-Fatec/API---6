@@ -57,20 +57,56 @@ O MVP contempla:
 
 ---
 
-## 📃 Backlog do Produto
-
+#### 📃 Backlog do Produto
 | Rank | Prioridade | User Story | Estimativa | Sprint | Status |
-|------|------------|------------|------------|--------|--------|
-| 1 | Alta | Como Administrador de Regras, quero cadastrar uma nova regra de negócio para formalizar decisões operacionais. | 5 | 1 | ⏳ |
-| 2 | Alta | Como Administrador de Regras, quero editar e versionar regras para manter histórico de alterações. | 8 | 1 | ⏳ |
-| 3 | Alta | Como Analista de Operações, quero simular a aplicação de uma regra para entender seu impacto antes de executá-la. | 8 | 1 | ⏳ |
-| 4 | Alta | Como Analista de Operações, quero que o sistema explique automaticamente a decisão utilizando IA Generativa para garantir transparência. | 13 | 2 | ⏳ |
-| 5 | Alta | Como Auditor Interno, quero visualizar o histórico de decisões aplicadas para garantir rastreabilidade. | 8 | 2 | ⏳ |
-| 6 | Média | Como Gestor Comercial, quero simular cenários alternativos alterando parâmetros da regra para avaliar impacto financeiro. | 13 | 3 | ⏳ |
-| 7 | Média | Como Administrador de Regras, quero que o sistema identifique possíveis conflitos entre regras cadastradas para evitar inconsistências. | 13 | 3 | ⏳ |
-| 8 | Média | Como Administrador de Regras, quero que a IA sugira melhorias na redação da regra para torná-la mais clara. | 8 | 3 | ⏳ |
-| 9 | Média | Como Auditor Interno, quero exportar relatório explicativo em PDF das decisões para documentação formal. | 5 | 4 | ⏳ |
-| 10 | Baixa | Como Gestor Comercial, quero receber alertas quando regras forem alteradas para acompanhar mudanças estratégicas. | 5 | 4 | ⏳ |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| 1 | Alta | **[Front-end]** Como Administrador de Regras, quero uma interface web SPA em Vue.js, para cadastrar e listar normativas da empresa de forma centralizada e sem planilhas soltas. | 8 | 1 | ⏳ |
+| 2 | Alta | **[Front-end]** Como Analista de Operações, quero uma interface de Chat interativa, para agilizar a obtenção de respostas dinâmicas sobre regras de comissionamento vigentes. | 8 | 1 | ⏳ |
+| 3 | Alta | **[Back-end]** Como Administrador de Regras, quero que os dados base do negócio (vendas, funcionários e comissionamento) sejam estruturados via SpringBoot, para permitir a integração e execução segura das regras cadastradas. | 13 | 1 | ⏳ |
+| 4 | Alta | **[Machine Learning]** Como Administrador de Regras, quero que os documentos físicos e PDFs da empresa sejam fatiados e convertidos em formato vetorial, para que a Inteligência Artificial consiga ler o conhecimento tácito da Dom Rock. | 13 | 1 | ⏳ |
+| 5 | Alta | **[Machine Learning]** Como Administrador de Regras, quero que as informações vetorizadas sejam indexadas em um banco de dados inteligente, para garantir que as buscas de contexto do sistema sejam ágeis e precisas. | 8 | 1 | ⏳ |
+| 6 | Alta | **[Machine Learning]** Como Analista de Operações, quero que o contexto exato da minha pergunta seja recuperado no banco de dados vetorial, para que a resposta da IA seja baseada apenas na nossa realidade e não contenha alucinações. | 13 | 2 | ⏳ |
+| 7 | Alta | **[Machine Learning]** Como Analista de Operações, quero enviar simulações para um motor de Inteligência Artificial (LLM), para reduzir drasticamente meu tempo gasto decifrando regras complexas de descontos e campanhas. | 13 | 2 | ⏳ |
+| 8 | Alta | **[Back-end]** Como Auditor Interno, quero que a aplicação registre logs estruturados e versionamento automático, para manter o histórico inalterável de todas as chamadas feitas à IA e garantir conformidade. | 8 | 2 | ⏳ |
+| 9 | Média | **[Front-end]** Como Gestor Comercial, quero um painel visual para simular cenários operacionais, para avaliar preventivamente o impacto financeiro de uma nova comissão antes de publicá-la. | 8 | 2 | ⏳ |
+| 10 | Média | **[Back-end]** Como Analista de Operações, quero que as rotas da aplicação se comuniquem perfeitamente com os scripts em Python, para garantir fluidez e evitar travamentos durante o expediente. | 8 | 2 | ⏳ |
+| 11 | Alta | **[Machine Learning]** Como Analista de Operações, quero que a IA justifique detalhadamente como calculou a comissão (Explicabilidade/XAI), para garantir a transparência da decisão e evitar discussões com a equipe de vendas. | 13 | 3 | ⏳ |
+| 12 | Média | **[Back-end]** Como Administrador de Regras, quero que o sistema me alerte sobre conflitos entre regras recém-cadastradas e antigas, para evitar pagamentos indevidos e inconsistências operacionais. | 8 | 3 | ⏳ |
+| 13 | Alta | **[Todas as Áreas]** Como Analista de Operações, quero consultar um Manual do Usuário detalhado, para reduzir minha curva de aprendizado ao começar a utilizar o assistente de IA da Dom Rock. | 5 | 3 | ⏳ |
+| 14 | Alta | **[Todas as Áreas]** Como CTO da Dom Rock, quero acessar um Manual de Instalação completo no repositório, para garantir que minha equipe interna consiga implantar o projeto no servidor sem depender dos alunos. | 5 | 3 | ⏳ |
+| 15 | Alta | **[Front-end / Apoio]** Como Gestor Comercial, quero assistir a um Vídeo Tutorial demonstrativo da ferramenta, para repassar aos diretores e funcionários que não possuem conhecimento técnico aprofundado. | 5 | 3 | ⏳ |
+
+---
+
+#### 🚦 Definition of Ready (DoR)
+O DoR representa o nosso acordo de equipe indicando quando uma *User Story* está preparada para ter seu desenvolvimento iniciado em uma Sprint. Uma tarefa só será puxada para desenvolvimento se cumprir os seguintes critérios de checklist:
+
+**Sobre a User Story:**
+- [ ] Possui título claro, descrição bem definida e objetivo compreendido por todos.
+- [ ] Os Critérios de Aceitação estão detalhados e documentados.
+- [ ] As regras de negócio da tarefa estão claras.
+- [ ] A história foi estimada pela equipe (em *Story Points*).
+- [ ] A tarefa não possui dependências bloqueadoras que impeçam seu início.
+- [ ] A compreensão da entrega foi validada com todo o time.
+
+**Sobre os Artefatos Correlatos:**
+- [ ] Design/documentação visual (Wireframes/Mockups) estão disponíveis (para tarefas de Front-end).
+- [ ] O Modelo de Dados está definido e disponível (para tarefas de Back-end).
+- [ ] A estratégia de testes foi definida.
+
+---
+
+#### 🏁 Definition of Done (DoD)
+O DoD é o checklist de compromisso da nossa equipe que garante que a *User Story* foi totalmente concluída e atinge os critérios de qualidade necessários para ser entregue à Dom Rock.
+
+**Critérios de Conclusão:**
+- [ ] O código foi devidamente versionado no Git.
+- [ ] O desenvolvimento ocorreu em uma branch específica (`feature/` ou `bugfix/`).
+- [ ] Foi aberto um *Pull Request* (PR) antes da liberação para *Code Review*.
+- [ ] Fragmentos de código comentados ou lixo de desenvolvimento foram removidos.
+- [ ] Todos os Critérios de Aceitação da *User Story* foram plenamente satisfeitos e testados.
+- [ ] Testes de unidade foram implementados com cobertura de código mínima de 70%.
+- [ ] A funcionalidade roda localmente na máquina sem falhas e sem quebrar o que já existia.
 
 ---
 
