@@ -36,6 +36,9 @@ A aplicação oferecerá:
 --------------------------------------------------------------------------------
 
 ## 🧩 MVP (Produto Mínimo Viável)
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/25a309dd-1909-473f-a026-fe68eed351fc" />
+
 O MVP contempla:
 *  Interface web para importação das planilhas de competência.
 *  Motor de processamento de regras trabalhistas (exceções, atestados, férias, demissões).
