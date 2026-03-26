@@ -37,7 +37,7 @@ A aplicação oferecerá:
 
 ## 🧩 MVP (Produto Mínimo Viável)
 
-<img width="991" height="554" alt="Image" src="https://github.com/user-attachments/assets/4ba78a64-fe05-4acf-9eb8-46d049e68591" />
+<img width="1376" height="768" alt="Image" src="https://github.com/user-attachments/assets/c69a506c-1610-4e95-8842-35fbc8aee222" />
 
 O MVP contempla:
 *  Interface web para importação das planilhas de competência.
